@@ -1,0 +1,164 @@
+Product Requirements Document (PRD)
+Project Name: Mirai (placeholder)
+Version: 1.0
+Owner: Om
+Last Updated: 11 Aug 2025
+
+1. Purpose
+Mirai is a web-based platform that rewards gym members for workout consistency and diet adherence.
+Trainers log member activity to prevent cheating, and credits earned can be redeemed for real-world rewards such as food discounts, movie tickets, spa vouchers, and trips.
+
+The goal is to increase gym retention, motivate members, and create a partner ecosystem where brands benefit from higher footfall.
+
+2. Target Users
+Primary:
+
+Gym members aged 18–40 who struggle with workout consistency
+
+Fitness-conscious individuals who value rewards and gamification
+
+Secondary:
+
+Gym trainers who want extra income and tools to track member engagement
+
+Gym owners/managers who want to improve member retention
+
+Reward partners (restaurants, theaters, spas, hotels) who want targeted traffic
+
+3. Problem Statement
+Members lose motivation and skip workouts after the initial enthusiasm.
+
+Gyms suffer from low retention and high churn rates.
+
+Trainers have limited earning potential and no structured incentives.
+
+Local businesses lack direct access to active, health-conscious customers.
+
+4. Solution Overview
+A platform where:
+
+Trainers log member workouts and diet compliance (no self-logging to reduce cheating).
+
+Members earn credits for each verified activity.
+
+Credits are redeemable with partner brands for real-world rewards.
+
+Membership tiers unlock additional perks (trips, elite discounts, credit multipliers).
+
+Gyms pay per active member or via a monthly plan.
+
+Trainers get per-log commissions and referral bonuses.
+
+5. Key Features (MVP)
+Member Side
+Profile creation (name, age, goal, gym name)
+
+Credits dashboard (shows earned and redeemed)
+
+Activity streak tracker
+
+Rewards catalog (filter by category: food, entertainment, wellness)
+
+Redemption process (QR code or coupon code)
+
+Trainer Side
+Trainer login
+
+Member list with search/filter
+
+Log workout completion (date + type)
+
+Log diet compliance (Yes/No)
+
+Commission dashboard
+
+Gym/Admin Side
+Admin login
+
+Active member count and engagement stats
+
+Trainer performance tracking
+
+Billing panel (per user or monthly)
+
+6. Revenue Streams
+From Users:
+
+Membership tiers (₹149/month basic, ₹399/month elite with trips, multipliers)
+
+From Gyms:
+
+₹40 per active member/month or fixed monthly plan (₹5K–₹15K depending on size)
+
+From Reward Partners:
+
+Commission on redeemed offers (10–15% of face value)
+
+Promotional placement fee inside rewards catalog (₹5K–₹50K/month)
+
+From Trainers:
+
+None directly, but they drive gym sign-ups, boosting gym revenue for us
+
+7. Trainer Incentives
+₹5–₹10 per verified activity log
+
+₹200–₹500 per member retained beyond 3 months
+
+₹1000 referral bonus for bringing a new gym onboard
+
+8. Non-MVP (Future)
+Mobile app (iOS, Android)
+
+AI-based diet/workout suggestions
+
+Wearable integration (Apple Watch, Fitbit)
+
+Peer challenges & leaderboards
+
+Cross-city member rewards
+
+9. Tech Stack (MVP)
+Frontend: React + Tailwind
+
+Backend: Node.js + Express OR Supabase
+
+Database: PostgreSQL
+
+Auth: Email/password (JWT)
+
+Hosting: Vercel (frontend), Render/Supabase (backend)
+
+10. Success Metrics
+Member retention rate improvement in pilot gyms (target: +25%)
+
+Average credits earned per member per month (target: 200+)
+
+Number of partner redemptions (target: 100/month in first city)
+
+Net Revenue per gym per month (target: ₹10K–₹30K)
+
+11. Rollout Plan
+Phase 1 – Validation (Weeks 1–3)
+
+Figma mockups
+
+Meetings with 3–5 Kolhapur gyms and trainers
+
+Partner onboarding (2–3 local restaurants)
+
+Phase 2 – MVP Launch (Weeks 4–8)
+
+Build web app (mobile responsive)
+
+Onboard first 2 gyms + 10 reward partners
+
+Start trainer commissions
+
+Phase 3 – City Domination (Months 2–6)
+
+10+ gyms in Kolhapur
+
+Expand rewards to entertainment & wellness
+
+Begin media marketing

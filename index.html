@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mirai — Clarity in Motion</title>
+    <meta name="description" content="Mirai brings clarity to fitness: simple tools for gyms, trainers, and users." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span class="brand-name">Mirai</span>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#" class="nav-link" data-target="gyms">For Gyms</a>
+        <a href="#" class="nav-link" data-target="trainers">For Trainers</a>
+        <a href="#" class="nav-link" data-target="users">For Users</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">Insanely simple fitness software.</h1>
+        <p class="tagline">Minimalist tools that create maximum clarity—for gyms, trainers, and users.</p>
+        <div class="cta-row">
+          <button class="pill" data-target="gyms" aria-controls="panel-gyms" aria-expanded="false">For Gyms</button>
+          <button class="pill" data-target="trainers" aria-controls="panel-trainers" aria-expanded="false">For Trainers</button>
+          <button class="pill" data-target="users" aria-controls="panel-users" aria-expanded="false">For Users</button>
+        </div>
+      </section>
+
+      <section class="panels" aria-live="polite">
+        <article id="panel-gyms" class="panel" hidden>
+          <h2>Built for modern gyms</h2>
+          <p>Run operations with clarity—memberships, schedules, check-ins, and payments—without the clutter.</p>
+          <ul>
+            <li>Clean dashboards for staff and owners</li>
+            <li>Frictionless onboarding and billing</li>
+            <li>Real-time capacity and equipment usage</li>
+          </ul>
+        </article>
+
+        <article id="panel-trainers" class="panel" hidden>
+          <h2>Power to personal trainers</h2>
+          <p>Plan, track, and communicate with clients in a minimalist workspace that keeps the focus on progress.</p>
+          <ul>
+            <li>Program templates and progress tracking</li>
+            <li>Session notes that stay organized</li>
+            <li>Messaging that respects boundaries</li>
+          </ul>
+        </article>
+
+        <article id="panel-users" class="panel" hidden>
+          <h2>Clarity for every user</h2>
+          <p>Know what to do and why it matters. Simple daily plans, gentle nudges, and meaningful milestones.</p>
+          <ul>
+            <li>Daily plan with zero noise</li>
+            <li>Form cues and habit streaks</li>
+            <li>Privacy-first by default</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Mirai. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
