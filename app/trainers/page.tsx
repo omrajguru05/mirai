@@ -81,9 +81,9 @@ export default function TrainersPage() {
       <section className="max-w-[72ch] space-y-6">
         <h2 className="text-2xl font-semibold tracking-[-0.02em]">Onboarding script for trainers</h2>
         <ul className="list-disc pl-5 space-y-2 text-foreground/80">
-          <li><strong>Two-line opener</strong>: "We pay you for logging your clients and give your clients real rewards for showing up."</li>
+          <li><strong>Two-line opener</strong>: &quot;We pay you for logging your clients and give your clients real rewards for showing up.&quot;</li>
           <li><strong>Demo flow</strong>: Show the 10-second log on your phone, show earnings page, show redemption example.</li>
-          <li><strong>Close ask</strong>: "Bring three clients onto the app this week and start earning immediately."</li>
+          <li><strong>Close ask</strong>: &quot;Bring three clients onto the app this week and start earning immediately.&quot;</li>
         </ul>
       </section>
 

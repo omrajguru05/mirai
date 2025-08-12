@@ -1,7 +1,7 @@
  "use client";
- import { useState } from "react";
- 
- export default function GymsPage() {
+import { useState } from "react";
+
+export default function GymsPage() {
   return (
     <main className="px-[10vw] sm:px-[12vw] py-20 space-y-12">
       <header className="max-w-[72ch] space-y-4">
@@ -76,7 +76,7 @@
       <section className="max-w-[72ch] space-y-6">
         <h2 className="text-2xl font-semibold tracking-[-0.02em]">Sales kit for a gym meeting</h2>
         <ul className="list-disc pl-5 space-y-2 text-foreground/80">
-          <li><strong>1-minute opener</strong>: "We make your members come more and spend more by turning consistency into real value."</li>
+          <li><strong>1-minute opener</strong>: &quot;We make your members come more and spend more by turning consistency into real value.&quot;</li>
           <li><strong>Demo flows to show</strong>: Trainer log → Member earns credits → Member redeems at local cafe → Dashboard shows reduced churn.</li>
           <li><strong>Proof points</strong>: Local pilot statistics, partner list, clear pricing.</li>
           <li><strong>Close ask</strong>: Book a pilot for one branch for 30 days.</li>
